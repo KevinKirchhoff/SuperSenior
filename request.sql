@@ -3,7 +3,7 @@ CREATE TABLE request(
     name VARCHAR(32) DEFAULT NULL,
     class VARCHAR(32) NOT NULL,
     idClass INT NOT NULL
-    availability DATE NOT NULL,
+    availability VARCHAR(32) NOT NULL,
     contactinfo NOT NULL,
     comments DEFAULT NULL,
     postDate DATE NOT NULL,

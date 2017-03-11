@@ -1,16 +1,16 @@
 <?php
 
 class db{
-      private $host = "";
-      private $db = "";
-      private $user = "";
+      private $host = "localhost";
+      private $dbs = "superseniors";
+      private $user = "root";
       private $pass = "";
     
     
     public function getConnection () {
         
         try {
-          $conn = new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user,
+          $conn = new PDO("mysql:host={$this->host};dbname={$this->dbs}", $this->user,
                 $this->pass);
         } catch (Exception $e) {
           echo "issue with the connections";
@@ -39,12 +39,12 @@ class db{
         
     }
     
-    public function getComments () {
+    public function getClass () {
         $conn = $this->getConnection();
         return $conn->query("select name, number from number order by name desc");
   }
     
-      public function saveComment ($name, $number) {
+      public function saveClass ($name, $number) {
         
         $conn = $this->getConnection();
         $saveQuery = "insert into classes (name, number) values (:name, :number)";
