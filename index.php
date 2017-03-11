@@ -14,6 +14,7 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
+                   <img src="fox_logo.png" alt="study fox logo" style="width:340px; height:340px;">
 		<h1>Study Fox</h1>
 		<p>
 		<i>	The official Study Fox, a collaborative study made easy.</i>
