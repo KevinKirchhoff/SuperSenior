@@ -4,14 +4,21 @@
 
 <style>
 .fat{
-max-width: 50%;
-padding: 40px;
+max-width: 55%;
+padding: 15px;
 align-self: center;
 margin-left: auto;
 margin-right: auto;}
 
+h2{
+padding-top:15px;
+text-align:center;
+}    
 
 </style>
+    <header>
+    <h2>Participate and make yourself available to other study foxes.</h2>
+    </header>
 <body>
 <form action="savecomment.php" method="post">
 <div class="fat">
@@ -56,6 +63,8 @@ margin-right: auto;}
 </div>
 </form>
 </body>
-
+<?php
+    include("footer.php");
+?>
 
 </html>
