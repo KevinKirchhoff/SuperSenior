@@ -3,8 +3,8 @@
 
     .panel-footer{
         text-align:center;
-        position:absolute;
-        padding:10px;
+        position:relative;
+        
         bottom:0;
         width:100%;
         height:auto;
