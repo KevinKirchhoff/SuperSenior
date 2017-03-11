@@ -9,8 +9,36 @@
 
 
 </head>
-<?php include("header.php");
-?>
+<style>
+body{
+padding-top:40px;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="myNav">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand">Study Fox</a>
+
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav">
+			<li><a href="#participate">Participate</a></li>
+			<li><a href="#search">Search</a></li>
+			<li><a href="#faq">Faq</a></li>
+			<li><a href="#aboutus">About Us</a></li>
+			</ul>
+
+		</div>
+	</div>
+</nav>
 
 <div class="jumbotron">
 	<div class="container text-center">
