@@ -1,9 +1,11 @@
 <?php 
-    include("header.php");
-    require_once 'Hey.php';
+    require_once 'Dao.php';
+    echo "test";
+
     require_once 'Output.php';
-    $hey = new Hey();
-    $hey->getConnection();
+    echo "test";
+    $dao = new Dao();
+    $dao->getConnection();
     
 ?>
 <div> 

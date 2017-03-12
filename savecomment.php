@@ -1,16 +1,16 @@
+
 <?php
- session_start();
 
-require_once 'Hey.php';
 
-$hey=new Hey();
+require_once 'Dao.php';
+
+$dao=new Dao();
 
 $name= htmlentities($_POST['name']);
-
-
-$hey->saveName($name);
+echo $name;
+$dao->saveName($name);
 
 header("Location:participate.php");
 
 exit;
-?>
+

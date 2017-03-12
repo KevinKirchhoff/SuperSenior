@@ -1,5 +1,8 @@
 <html>
+
 <head>
+
+    
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -30,11 +33,11 @@ padding-top:40px;
 
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
-			<ul class="nav navbar-nav">
-			<li><a href="participate.php">Participate</a></li>
-			<li><a href="search.php">Search</a></li>
-			<li><a href="faq.php">Faq</a></li>
-			<li><a href="aboutus.php">About Us</a></li>
+			<ul class="nav navbar-nav active">
+			<li id="a"><a href="participate.php">Participate</a></li>
+			<li id="b"><a href="search.php">Search</a></li>
+			<li id="c"><a href="faq.php">Faq</a></li>
+			<li id="d"><a href="aboutus.php">About Us</a></li>
                 <li><a href="https://coen.boisestate.edu/cs/computer-science-tutoring-center-cstc/tutoring-calendar/">Tutoring Calendar</a></li>
 			</ul>
 
@@ -42,6 +45,7 @@ padding-top:40px;
 	</div>
 </nav>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

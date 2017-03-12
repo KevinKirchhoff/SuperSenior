@@ -1,5 +1,6 @@
 <html>
 <? include("header.php");
+    
 ?>
 
 <style>
@@ -20,7 +21,7 @@ text-align:center;
     <h2>Participate and make yourself available to other study foxes.</h2>
     </header>
 <body>
-<form action="savecomment.php" method="post">
+<form  method="POST" action="savecomment.php">
 <div class="fat">
     <div class="form-group row">
 	<label for "name-input" class="col-2 col-form-label">Name:</label>
