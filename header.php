@@ -24,6 +24,7 @@ padding-top:40px;
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
+            <span class="icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">Study Fox</a>
 
@@ -34,6 +35,7 @@ padding-top:40px;
 			<li><a href="search.php">Search</a></li>
 			<li><a href="faq.php">Faq</a></li>
 			<li><a href="aboutus.php">About Us</a></li>
+                <li><a href="https://coen.boisestate.edu/cs/computer-science-tutoring-center-cstc/tutoring-calendar/">Tutoring Calendar</a></li>
 			</ul>
 
 		</div>
