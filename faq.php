@@ -61,7 +61,7 @@
     </div>
     <div id="CollapseThree" class="panel-collapse collapse" aria-expanded="false" style="height:0px;">
         <div class="panel-body">
-        For one participating is free, all you have to do is fill some contact information and post your information to be searched for. Another reason is you want to succeed and make friends, why not get good grades while doing it? 
+        We don't always get good results the first time we try something. I would suggest making another post or going to the tutoring schedule which we have a link to and trying to find someone working on the same thing you are there. 
         </div>
     </div>
     </div>
