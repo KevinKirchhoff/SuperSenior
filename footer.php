@@ -1,10 +1,9 @@
 <html>
 <style>
 
-    .panel-footer{
+  .panel-footer{
         text-align:center;
-        position:absolute;
-        
+        clear:both;        
         bottom:0;
         width:100%;
         height:auto;
@@ -12,6 +11,7 @@
     .panel-footer>li{
         display:inline-block;
     }
+
     body{
         padding-bottom:0px;
     }
@@ -23,7 +23,7 @@
 <li>©2017 StudyFox | </li>
 <li><a href="faq.php" src="faq.php">Faq | </a></li>
 <li><a href="aboutus.php" src="aboutus.php">About us</a></li>
-</div>
+</div> 
     </footer>
 
 </html>

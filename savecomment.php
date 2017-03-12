@@ -20,7 +20,7 @@ $classes= htmlentities($_POST['class']);
 
 header("Location:participate.php");
 
-exit;
+die;
 
     
     
