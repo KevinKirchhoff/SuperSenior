@@ -38,26 +38,12 @@ text-align:center;
     
     <div class="form-group row">
         
-	   <label for "class-input" class="col-2 col-form-label">Class:</label>
-            <div class="dropdown">
-            <button class =" btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Select a Class
-                <span class="caret"></span></button>
-      
-                
-                
-        
-        
-        
-                 <!-   This is where you will do the php stuff-->
-                  <ul class="dropdown-menu">
-                    <li><input type ="dropdown" name = "CS101"></li>
-                    <li><input type ="dropdown" name = "CS201"></li>
-
- 
-        
-        
-                  </ul>
-    </div>
+	  
+        <label for ="sell"> Class:</label>
+           <select class="form-control"  id="sell" name="class">
+               <option>CS 121</option>
+               <option>CS 221</option>
+           </select>
 	    
     </div>
     <div class="form-group row">
@@ -66,25 +52,30 @@ text-align:center;
         <input class="form-control" type="email" id="email-input" name="email">
         </div>
     </div>
-    <div class="form-group row">
+        <div class="form-group row">
+        <label for "availability" class="col-2 col-form-label">Availability:</label>
+        <input class="form-control" type="text" id="availability" name="availability">
+            
+    </div>
+   <!-- <div class="form-group row">
         <label for "availability" class="col-2 col-form-label">Availability:</label>
 
         <div class="checkbox">
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value ="Monday">Monday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value ="Tuesday">Tuesday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value ="Wednesday">Wednesday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value ="Thursday">Thursday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value ="Friday">Friday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Saturday">Saturday</label>
-            <label class="checkbox-inline"><input type="checkbox" name="checkbox" value = "Sunday">Sunday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="monday" value ="Monday">Monday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="tuesday" value ="Tuesday">Tuesday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="wedneday" value ="Wednesday">Wednesday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="thursday" value ="Thursday">Thursday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="friday" value ="Friday">Friday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="saturday" value="Saturday">Saturday</label>
+            <label class="checkbox-inline"><input type="checkbox" name="sunday" value = "Sunday">Sunday</label>
         </div>
-    </div>
+    </div>-->
     <div class="form-group row">
-        <label for "comment">Additional Comments:</label>
-        <textarea class="form-control" rows="5" id="comment" name="comments"></textarea>
+        <label for "comment"  class="col-2 col-form-label">Additional Comments:</label>
         <div class="col-10">
         <input class="form-control" type="text" id="comment" name="comment">
-        </div>
+             </div>
+
     </div>
     <div class ="form-group row">
         <input type="submit" class="btn btn-warning" value="Submit">

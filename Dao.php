@@ -19,55 +19,27 @@ class Dao{
         return $conn;
     }
 
-        public function saveDropDown($dropdown){
+        public function save($name,$email,$availability,$comment,$classes){
         try{
         $conn= $this->getConnection();
         }catch(Exception $e){
             echo e;
         }
-        $saveQuery = "insert into request (class) values (:dropdown) ";
-        $q=$conn->prepare($saveQuery);  
-        $q->bindParam(":dropdown", $drop);
-        $q->execute();
-    }
-        public function saveEmail($email){
-        try{
-        $conn= $this->getConnection();
-        }catch(Exception $e){
-            echo e;
-        }
-        $saveQuery = "insert into request (contactinfo) values (:email) ";
-        $q=$conn->prepare($saveQuery);  
-        $q->bindParam(":email", $email);
-        $q->execute();
-    }
-        public function saveAvailability($availability){
-        try{
-        $conn= $this->getConnection();
-        }catch(Exception $e){
-            echo e;
-        }
-        $saveQuery = "insert into request (availability) values (:availability) ";
-        $q=$conn->prepare($saveQuery);  
-        $q->execute();
-    }
-        public function save($name, $email){
-        try{
-        $conn= $this->getConnection();
-        }catch(Exception $e){
-            echo e;
-        }
-        $saveQuery = "insert into request (name,contactinfo,availability) values (:name,:email,:availability) ";
-        $q=$conn->prepare($saveQuery);  
+        $saveQuery = "insert into request (name,contactinfo,availability,comment,class) values (:name,:email,:availability,:comment,:classes) ";
+        $q=$conn->prepare($saveQuery); 
+            
         $q->bindParam(":email", $email);
         $q->bindParam(":name", $name);
-                $q->bindParam(":availability", $availability);
+        $q->bindParam(":availability", $availability);
+        $q->bindParam(":comment", $comment);
+        $q->bindParam(":classes", $classes);
+
 
         $q->execute();
     }
     public function getRequest() {
         $conn = $this->getConnection();
-         return $conn->query("select name,idClass from classes");
+         return $conn->query("select name,contactinfo,availability,comment from request");
     }
 }
 

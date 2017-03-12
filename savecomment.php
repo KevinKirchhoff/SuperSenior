@@ -8,12 +8,12 @@ $dao=new Dao();
 
 $name= htmlentities($_POST['name']);
 $email= htmlentities($_POST['email']);
-$dropdown= htmlentities($_POST['dropdown']);
-//var_dump($_POST["checkbox"]);
-$hey = implode($_POST['comment']);
-$availability= $hey;
+$availability= htmlentities($_POST['availability']);
+$comment= htmlentities($_POST['comment']);
+$classes= htmlentities($_POST['class']);
 
- $dao->save($name,$email,$availability);
+ $dao->save($name,$email,$availability,$comment,$classes);
+
 
 
 
@@ -22,3 +22,5 @@ header("Location:participate.php");
 
 exit;
 
+    
+    
