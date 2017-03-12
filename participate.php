@@ -28,11 +28,40 @@ text-align:center;
 		<input class="form-control" type="text" id="name-input" name="name">
 	   </div>
     </div>
+
+    
+    
+    
+    
+    
+    
     <div class="form-group row">
+        
 	   <label for "class-input" class="col-2 col-form-label">Class:</label>
-	   <div class="col-10">
-		<input class="form-control" type="text" id="class-input" name="class">
-	   </div>
+            <div class="dropdown">
+            <button class =" btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Select a Class
+                <span class="caret"></span></button>
+      
+                
+                
+        
+        
+        
+                 <!-   This is where you will do the php stuff-->
+                  <ul class="dropdown-menu">
+                    <li><a href ="#">CS101</a></li>
+                    <li><a href ="#">CS111</a></li>
+                    <li><a href ="#">CS117</a></li>
+                    <li><a href ="#">CS121</a></li>
+                    <li><a href ="#">CS221</a></li>
+                    <li><a href ="#">CS230</a></li>
+                    <li><a href ="#">CS252</a></li>
+                    <li><a href ="">CS253</a></li>
+        
+        
+                  </ul>
+    </div>
+	    
     </div>
     <div class="form-group row">
         <label for "email-input" class="col-2 col-form-label">Email:</label>
