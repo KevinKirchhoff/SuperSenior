@@ -39,7 +39,7 @@ class Dao{
     }
     public function getRequest() {
         $conn = $this->getConnection();
-         return $conn->query("select name,contactinfo,availability,comment from request");
+         return $conn->query("select name,contactinfo,availability, class, comment from request");
     }
 }
 

@@ -10,10 +10,17 @@
         padding-top:40px;
         padding-left:40px;
         padding-right:40px;
+    } 
+    
+        #we{
+         margin-left:auto;
+        margin-right:auto;
+        max-width:55%;
+        align-content: center; 
     }
    
 </style>    
-    
+ <div id="we" > 
 <div class="panel-group" id="accordian">
     <div class="faqheader">General Questions</div>
     <div class="panel panel-default">
@@ -68,8 +75,9 @@
     
     
     
+     </div>
     
-    
+ <img src="twofriends.png" alt="friend_foxes" class="img-responsive" style=" width:580px; height:400px;"></div>
     
     
     

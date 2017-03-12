@@ -2,9 +2,9 @@
 ?>
  <style>
     .hey{
-    padding-top: 30%;
+    padding-top: 10px;
         margin-left: auto;
-        margin-right:auto;
+        margin-right:auto; 
 }
   
 

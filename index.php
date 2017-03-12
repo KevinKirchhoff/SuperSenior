@@ -22,7 +22,8 @@
 	</div>
 </div>
 
-    <div><p>If you need help studying this is the place for you. We created a place for students to post there email and class times of availability so they can find someone else in the same class who would like to work with them. This collaborative app will make school easier and more enjoyable from freshmans to seniors!</p></div>
+    <div class="container text-center"><p>If you need help studying this is the place for you. We created a place for students to post there email and class times of availability so they can find someone else in the same class who would like to work with them. This collaborative app will make school easier and more enjoyable from freshmans to seniors!</p>
+ <img src="twofriends.png" class = "img-fluid" class="img-responsive" alt="friend_foxes" style="width:580px; height:400px;"></div>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

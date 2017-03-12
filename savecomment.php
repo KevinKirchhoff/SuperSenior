@@ -18,9 +18,9 @@ $classes= htmlentities($_POST['class']);
 
 
 
-header("Location:participate.php");
+header("Location:search.php");
 
-die;
+end;
 
     
     

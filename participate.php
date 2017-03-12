@@ -83,6 +83,8 @@ text-align:center;
     </div>
 </div>
 </form>
+     <div class="container text-center">
+ <img src="lonelyfox.png" class = "img-fluid" class="img-responsive" alt="lonely_fox" style="width:325px; height:500px;"></div>
 </body>
 <?php
     include("footer.php");
